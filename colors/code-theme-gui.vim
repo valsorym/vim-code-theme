@@ -32,7 +32,7 @@ hi ColorColumn                  guibg=#113a44
 hi LineNr         guifg=#5c6574 guibg=#090a17 gui=none
 hi Cursor         guifg=NONE    guibg=#656565 gui=none
 hi Normal         guifg=#f6f3e8 guibg=#090a17 gui=none
-hi NonText        guifg=#808080 guibg=#090a17 gui=none
+hi NonText        guifg=#28293a guibg=#090a17 gui=none
 hi StatusLine     guifg=#f6f3e8 guibg=#444444 gui=italic
 hi StatusLineNC   guifg=#857b6f guibg=#444444 gui=none
 hi VertSplit      guifg=#444444 guibg=#444444 gui=none
