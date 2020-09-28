@@ -73,7 +73,7 @@ hi MatchParen   guibg=#200080 guifg=#f0f080
 
 " Terminal colors
 hi Normal           ctermbg=16 ctermfg=194
-hi SpecialKey       term=bold ctermfg=115
+hi SpecialKey       term=bold ctermfg=233
 hi NonText          term=bold cterm=bold ctermfg=0 ctermbg=16
 hi Directory        term=bold ctermfg=6
 hi ErrorMsg         term=standout ctermfg=231 ctermbg=203
