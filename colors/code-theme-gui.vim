@@ -55,7 +55,7 @@ hi PreProc        guifg=#e5786d gui=none
 hi Number         guifg=#e5786d gui=none
 " hi Special        guifg=#e7f6da gui=none
 hi Special        guifg=#cae682 gui=none
-hi Label          guifg=#47e0c3 gui=none
+hi Label          guifg=#47e0c3 gui=bold
 hi SpecialKey     guifg=#1f2248 guibg=NONE gui=none " tab symbol.
 
 
