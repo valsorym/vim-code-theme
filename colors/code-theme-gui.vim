@@ -51,6 +51,7 @@ hi Function       guifg=#cae682 gui=none
 hi Type           guifg=#cae682 gui=none
 hi Statement      guifg=#8ac6f2 gui=none
 hi Keyword        guifg=#8ac6f2 gui=none
+hi SpecialKeyword guifg=#8ac6f2 guibg=NONE gui=bold
 hi PreProc        guifg=#e5786d gui=none
 hi Number         guifg=#e5786d gui=none
 " hi Special        guifg=#e7f6da gui=none
