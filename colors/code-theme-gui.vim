@@ -42,8 +42,9 @@ hi Visual         guifg=#f6f3e8 guibg=#444444 gui=none
 hi SpecialKey     guifg=#808080 guibg=#343434 gui=none
 
 " Syntax highlighting
+hi Error          guifg=#c62828 guibg=NONE gui=bold cterm=bold
 hi Comment        guifg=#99968b gui=italic
-hi Todo           guifg=#bcff06 guibg=NONE gui=italic,bold
+hi Todo           guifg=#bcff06 guibg=NONE gui=bold
 hi Constant       guifg=#e5786d gui=none
 hi String         guifg=#95e454 gui=none
 hi Identifier     guifg=#cae682 gui=none
