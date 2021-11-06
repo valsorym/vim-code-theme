@@ -12,6 +12,11 @@ endif
 
 let g:colors_name="code-theme-term"
 
+hi TabLineFill  ctermfg=white   ctermbg=240     cterm=NONE
+hi TabLine      ctermfg=white   ctermbg=240     cterm=NONE
+hi TabLineSel   ctermfg=white   ctermbg=NONE    cterm=bold
+hi Title        ctermfg=46      ctermbg=240     cterm=bold
+
 " Terminal colors
 hi Normal           ctermbg=16 ctermfg=194
 hi SpecialKey       term=bold ctermfg=233
@@ -29,7 +34,6 @@ hi CursorLine       term=bold,reverse cterm=bold ctermfg=256 ctermbg=38
 hi Question         term=standout cterm=bold ctermfg=146
 hi StatusLine       term=bold,reverse cterm=bold ctermfg=17 ctermbg=38
 hi StatusLineNC     term=reverse cterm=bold ctermfg=23 ctermbg=31
-hi Title            term=bold ctermfg=46
 hi Visual           term=reverse ctermfg=68 ctermbg=17
 hi VisualNOS        term=bold,underline cterm=bold,underline
 hi WarningMsg       term=standout ctermfg=209
