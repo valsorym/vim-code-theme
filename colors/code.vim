@@ -87,7 +87,4 @@ hi Boolean cterm=bold,italic ctermfg=136 gui=bold,italic guifg=#af8700
 hi Type cterm=bold ctermfg=74 gui=bold guifg=#5fafd7
 hi Repeat cterm=bold ctermfg=214 gui=bold guifg=#00cae2
 
-hi SclowSbar ctermbg=245 guibg=#8a8a8a
-
-hi mkdHeading ctermbg=NONE
 hi link htmlLink NONE
