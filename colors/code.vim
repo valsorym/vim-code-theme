@@ -10,8 +10,6 @@ set background=dark
 let g:colors_name = "code"
 
 " Don't underline leading whitespace in HTML links.
-hi link htmlLink NONE
-
 hi Normal cterm=NONE ctermfg=194 ctermbg=16 gui=NONE guifg=#d7ffd7 guibg=#090a17
 hi ColorColumn ctermbg=6 guibg=#113a44
 hi Comment ctermfg=23 gui=italic guifg=#99968b
@@ -54,7 +52,6 @@ hi SpellBad cterm=underline ctermfg=174 ctermbg=233 gui=undercurl guifg=#ff8485 
 hi SpellCap cterm=underline ctermfg=101 ctermbg=233 gui=undercurl guifg=#a7a053 guibg=#121713
 hi SpellLocal cterm=underline ctermfg=187 ctermbg=233 gui=undercurl guifg=#fdfec9 guibg=#121713
 hi SpellRare cterm=underline ctermfg=109 ctermbg=233 gui=undercurl guifg=#a0cab0 guibg=#121713
-hi Statement cterm=bold ctermfg=6 gui=NONE guifg=#8ac6f2
 hi StatusLine cterm=NONE ctermfg=7 ctermbg=240 gui=NONE guifg=#c3c0b2 guibg=#444444
 hi StatusLineNC cterm=NONE ctermfg=16 ctermbg=240 gui=NONE guifg=#857b6f guibg=#444444
 hi String ctermfg=101 gui=NONE guifg=#95e454
@@ -62,7 +59,6 @@ hi TabLine cterm=NONE ctermfg=white ctermbg=240 gui=bold guifg=#e3e3e3 guibg=#42
 hi TabLineFill cterm=NONE ctermfg=white ctermbg=240 gui=bold guifg=#e3e3e3 guibg=#424242
 hi TabLineSel cterm=bold ctermfg=white ctermbg=NONE gui=bold guifg=#ffffff guibg=NONE
 hi Tag ctermfg=137 guifg=#d38d6b
-hi Title cterm=bold ctermfg=46 ctermbg=240 gui=bold guifg=#f6f3e8 guibg=#113a44
 hi Todo ctermfg=187 ctermbg=234 gui=bold guifg=#bcff06 guibg=NONE
 hi Underlined ctermfg=109 guifg=#91b5d4
 hi VertSplit cterm=NONE ctermfg=240 ctermbg=240 gui=NONE guifg=#444444 guibg=#444444
@@ -78,12 +74,20 @@ hi GitGutterAdd cterm=bold ctermfg=3 ctermbg=28
 hi GitGutterChange cterm=bold ctermfg=7 ctermbg=26
 hi GitGutterDelete cterm=bold ctermfg=2 ctermbg=1
 
+hi Title cterm=bold ctermfg=106 ctermbg=NONE gui=bold guifg=#87af00 guibg=NONE
+
 hi Directory ctermfg=14 guifg=#00ffff
 hi Statement cterm=NONE ctermfg=14 gui=bold guifg=#00ffff
 
-hi Keyword cterm=bold ctermfg=38 gui=bold guifg=#00afd7
+" hi Keyword cterm=bold ctermfg=38 gui=bold guifg=#00afd7
+hi Keyword cterm=bold ctermfg=100 gui=bold guifg=#878700
 
 hi Conditional cterm=bold ctermfg=74 gui=bold guifg=#5fafd7
 hi Boolean cterm=bold,italic ctermfg=136 gui=bold,italic guifg=#af8700
 hi Type cterm=bold ctermfg=74 gui=bold guifg=#5fafd7
 hi Repeat cterm=bold ctermfg=214 gui=bold guifg=#00cae2
+
+hi SclowSbar ctermbg=245 guibg=#8a8a8a
+
+hi mkdHeading ctermbg=NONE
+hi link htmlLink NONE
