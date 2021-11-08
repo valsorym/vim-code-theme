@@ -67,7 +67,6 @@ hi WarningMsg ctermfg=209 guifg=#e0b088
 hi WildMenu cterm=NONE ctermfg=16 ctermbg=226 gui=NONE guifg=#dadad5 guibg=#121713
 hi SpecialKeyword gui=bold guifg=#8ac6f2 guibg=NONE
 hi Number gui=NONE guifg=#e5786d
-hi Label gui=bold guifg=#47e0c3
 hi VisualNOS cterm=bold,underline
 hi Matchmaker ctermfg=16 ctermbg=32
 hi GitGutterAdd cterm=bold ctermfg=3 ctermbg=28
@@ -76,16 +75,13 @@ hi GitGutterDelete cterm=bold ctermfg=2 ctermbg=1
 
 hi Title cterm=bold ctermfg=106 ctermbg=NONE gui=bold guifg=#87af00 guibg=NONE
 
+hi Label cterm=NONE ctermfg=44 gui=NONE guifg=#00d7d7
 hi Directory ctermfg=14 guifg=#00ffff
-hi Statement cterm=bold ctermfg=14 gui=bold guifg=#00ffff
-
-" hi Keyword cterm=bold ctermfg=38 gui=bold guifg=#00afd7
-hi Keyword cterm=bold ctermfg=74 gui=bold guifg=#5fafd7
-"hi Conditional cterm=bold ctermfg=100 gui=bold guifg=#878700
-hi Conditional cterm=bold ctermfg=74 gui=bold guifg=#5fafd7
-
-hi Boolean cterm=bold ctermfg=136 gui=bold guifg=#af8700
+hi Statement cterm=NONE ctermfg=74 gui=NONE guifg=#5fafd7
+hi Keyword cterm=NONE ctermfg=74 gui=NONE guifg=#5fafd7
+hi Conditional cterm=NONE ctermfg=74 gui=NONE guifg=#5fafd7
+hi Repeat cterm=NONE ctermfg=214 gui=NONE guifg=#00cae2
+hi Boolean cterm=NONE ctermfg=136 gui=NONE guifg=#af8700
 hi Type cterm=italic ctermfg=74 gui=italic guifg=#5fafd7
-hi Repeat cterm=bold ctermfg=214 gui=bold guifg=#00cae2
 
 hi link htmlLink NONE
