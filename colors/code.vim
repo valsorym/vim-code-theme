@@ -77,14 +77,15 @@ hi GitGutterDelete cterm=bold ctermfg=2 ctermbg=1
 hi Title cterm=bold ctermfg=106 ctermbg=NONE gui=bold guifg=#87af00 guibg=NONE
 
 hi Directory ctermfg=14 guifg=#00ffff
-hi Statement cterm=NONE ctermfg=14 gui=bold guifg=#00ffff
+hi Statement cterm=bold ctermfg=14 gui=bold guifg=#00ffff
 
 " hi Keyword cterm=bold ctermfg=38 gui=bold guifg=#00afd7
-hi Keyword cterm=bold ctermfg=100 gui=bold guifg=#878700
-
+hi Keyword cterm=bold ctermfg=74 gui=bold guifg=#5fafd7
+"hi Conditional cterm=bold ctermfg=100 gui=bold guifg=#878700
 hi Conditional cterm=bold ctermfg=74 gui=bold guifg=#5fafd7
-hi Boolean cterm=bold,italic ctermfg=136 gui=bold,italic guifg=#af8700
-hi Type cterm=bold ctermfg=74 gui=bold guifg=#5fafd7
+
+hi Boolean cterm=bold ctermfg=136 gui=bold guifg=#af8700
+hi Type cterm=italic ctermfg=74 gui=italic guifg=#5fafd7
 hi Repeat cterm=bold ctermfg=214 gui=bold guifg=#00cae2
 
 hi link htmlLink NONE
