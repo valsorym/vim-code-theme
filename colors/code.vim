@@ -44,7 +44,8 @@ hi PmenuSel ctermfg=251 ctermbg=162 gui=NONE guifg=#000000 guibg=#cae682
 hi PmenuThumb ctermfg=251 ctermbg=162 gui=NONE guifg=#dadad5 guibg=#d51487
 hi PreProc ctermfg=103 gui=NONE guifg=#e5786d
 hi Question cterm=bold ctermfg=146 guifg=#00a0a0
-hi Search ctermfg=58 ctermbg=108 gui=underline guifg=NONE guibg=NONE
+"hi Search ctermfg=58 ctermbg=108 gui=underline guifg=NONE guibg=NONE
+hi Search cterm=bold ctermfg=NONE ctermbg=NONE gui=bold guifg=NONE guibg=NONE
 hi SignColumn ctermfg=66 ctermbg=234 guifg=#7c8884 guibg=#132423
 hi Special cterm=bold ctermfg=12 gui=NONE guifg=#cae682
 hi SpecialKey ctermfg=233 gui=NONE guifg=#1f2248 guibg=NONE
