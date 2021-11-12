@@ -83,6 +83,6 @@ hi Keyword cterm=NONE ctermfg=74 gui=NONE guifg=#5fafd7
 hi Conditional cterm=NONE ctermfg=74 gui=NONE guifg=#5fafd7
 hi Repeat cterm=NONE ctermfg=214 gui=NONE guifg=#00cae2
 hi Boolean cterm=NONE ctermfg=136 gui=NONE guifg=#af8700
-hi Type cterm=italic ctermfg=74 gui=italic guifg=#5fafd7
+hi Type cterm=NONE ctermfg=81 gui=NONE guifg=#5fffff
 
 hi link htmlLink NONE
