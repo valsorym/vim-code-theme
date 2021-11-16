@@ -8,6 +8,7 @@ endif
 
 set background=dark
 let g:colors_name = "code"
+set t_Co=256
 
 " Don't underline leading whitespace in HTML links.
 hi Normal cterm=NONE ctermfg=194 ctermbg=16 gui=NONE guifg=#d7ffd7 guibg=#090a17
@@ -33,7 +34,7 @@ hi Identifier cterm=NONE ctermfg=50 gui=NONE guifg=#cae682
 hi Ignore ctermfg=240 guifg=#020211
 hi IncSearch cterm=reverse ctermfg=58 ctermbg=187 gui=NONE guifg=#dadad5 guibg=#d51487
 hi LineNr cterm=bold ctermfg=30 ctermbg=16 gui=NONE guifg=#5c6574 guibg=#090a17
-hi MatchParen cterm=underline ctermfg=180 ctermbg=NONE gui=underline guifg=#dda790 guibg=NONE
+hi MatchParen cterm=bold ctermfg=180 ctermbg=NONE gui=bold guifg=#dda790 guibg=NONE
 hi ModeMsg cterm=bold ctermfg=38 guifg=#6badd1
 hi MoreMsg cterm=bold ctermfg=29 guifg=#add581
 hi NonText cterm=bold ctermfg=0 ctermbg=16 gui=NONE guifg=#28293a guibg=#090a17
